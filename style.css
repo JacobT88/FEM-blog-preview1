@@ -1,0 +1,77 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: hsl(47, 88%, 63%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+    font-family: 'FigTree';
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+h1:hover {
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+
+.container {
+    box-sizing: border-box;
+    background-color: white;
+    border: 0.25rem solid black;
+    border-radius: 2rem;
+    box-shadow: 0.5rem 0.5rem black;
+    width: 24rem;
+    padding: 1rem;
+}
+
+.hero {
+    border-radius: 1rem;
+    width: 100%;
+}
+
+.category {
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 0.5rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    padding: 1rem;
+    height: 10px;
+    margin: 1rem 0;
+}
+
+.date {
+    margin-top: -5px;
+}
+
+.description {
+    color: hsl(0, 0%, 50%);
+}
+
+.author {
+    display: flex;
+    align-items: center;
+}
+
+.author h2 {
+    font-size: 1rem;
+    padding-left: 1rem;
+}
+
+.author img {
+    height: 2rem;
+    width: 2rem;
+}
+
+@media only screen and (max-width: 376px) {
+    .container {
+        margin: 20px;
+    }
+}
